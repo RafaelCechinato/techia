@@ -1,10 +1,14 @@
 import React from 'react';
+import Card  from '../../components/Cards/index';
 
 const Home = () => {
   return (
-    <div>
-      <h1>Home Page</h1>
-      <p>Welcome to the Home Page!</p>
+    <div className='home'>
+      <Card 
+        title={'Total de Produtos'}
+        className = "shadow"
+        description={'505'}
+      />
     </div>
   );
 };

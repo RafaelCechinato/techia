@@ -1,0 +1,6 @@
+.sidebar .active{
+    border-bottom: 1px solid white;
+}
+.sidebar .logo{
+    width: 85%;
+}

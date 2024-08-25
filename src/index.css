@@ -13,8 +13,8 @@
   -moz-osx-font-smoothing: grayscale;
 
   --error-color: #dc3545;
-  --primary-color: white;
-  --second-color: black;
+  --primary-color:#ffffff;
+  --second-color: #000000;
 }
 
 .fs-12px{
@@ -107,6 +107,32 @@ button:focus-visible {
 .link:hover {
   color: var(--second-color);
   cursor: pointer;
+}
+
+.bg-dark{
+  background-color: var(--second-color) !important;
+}
+
+.nav{
+  padding-left: revert
+}
+
+.img-background{
+  background-image: url('./assets/img/background-dark.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content:center;
+  align-items:center;
+}
+
+.container-white{
+  background-color: white;
+  border-radius: 20px;
 }
 
 @media (prefers-color-scheme: light) {

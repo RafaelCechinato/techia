@@ -21,7 +21,7 @@ const Login = () => {
     <div className='login img-background px-sm-3 px-0'>
       <div className='col-md-6 container-white p-3'>
         <div className='row'>
-          <div className="col-md-7 line-right">
+          <div className="col-md-7 line-right d-flex justify-content-center align-items-center">
             <img src={exampleImage} alt="Logo" className='logo' />
           </div>
           <div className="col-md-5 d-flex justify-content-center align-items-center">
@@ -59,7 +59,7 @@ const Login = () => {
                       </button>
                     </div>
                     <a className='link mt-3 fs-12px'>forget my password</a>
-                    <a className='link mt-4 fs-12px'>Don't have an account? Sing Up</a>
+                    <a href={'/sign-up'} className='link mt-4 fs-12px'>Don't have an account? Sing Up</a>
                   </div>
                 </div>
               </div>
