@@ -1,0 +1,27 @@
+.login.img-background{
+    background-image: url('../../assets/img/background-black.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100vw;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.login .container-white{
+    background-color: white;
+    border-radius: 20px;
+}
+
+.login .logo{
+    width: 100%;
+    height: 'auto';
+    border-radius: 20px;
+}
+
+.login .line-right{
+    border-right: 1px solid black;
+}
