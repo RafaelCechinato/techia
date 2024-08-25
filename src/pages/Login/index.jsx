@@ -58,8 +58,8 @@ const Login = () => {
                         Log in
                       </button>
                     </div>
-                    <a className='link mt-3'>forget my password</a>
-                    <a className='link mt-4'>Don't have an account? Sing Up</a>
+                    <a className='link mt-3 fs-12px'>forget my password</a>
+                    <a className='link mt-4 fs-12px'>Don't have an account? Sing Up</a>
                   </div>
                 </div>
               </div>
